@@ -1,0 +1,9 @@
+090106 (22000): 902c295a-40ec-4c1b-937e-a922d6468f8b: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"s3://tpcdi-pipeline-testing/tpcdi-files/load/customer/Customer01.txt","LOADED","25","25","1","0","","","",""
+100080 (22000): fc0cbeab-2e28-45f1-a64c-0cc9822f525a: Number of columns in file (32) does not match that of the corresponding table (33), use file format option error_on_column_count_mismatch=false to ignore this error
+  File 'tpcdi-files/load/customer/Customer01.txt', line 1, character 206
+  Row 1, column "CUSTOMER_STG"["C_LCL_TX_ID":32]
+  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"s3://tpcdi-pipeline-testing/tpcdi-files/load/customer/Customer01.txt","LOADED","25","25","1","0","","","",""

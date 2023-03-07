@@ -1,0 +1,12 @@
+001003 (42000): 42c0d88f-83e2-4304-a5d7-5f34054b557b: SQL compilation error:
+syntax error line 2 at position 0 unexpected 'SET'.
+"status"
+"File format TXT_PIPE successfully created."
+002002 (42710): 06ae816a-a0f8-4fe4-97f0-241dab90ec21: SQL compilation error:
+Object 'TPCDI_STG.PUBLIC.TXT_PIPE' already exists.
+"status"
+"File format TXT_PIPE successfully created."
+"status"
+"File format TXT_PIPE successfully created."
+"status"
+"File format TXT_PIPE successfully created."

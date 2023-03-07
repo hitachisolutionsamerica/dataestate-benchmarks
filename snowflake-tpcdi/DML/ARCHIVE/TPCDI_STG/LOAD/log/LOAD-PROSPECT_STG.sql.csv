@@ -1,0 +1,9 @@
+090106 (22000): 152ec0e3-9c2a-4995-918b-466bbc10a7a8: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"s3://tpcdi-pipeline-testing/tpcdi-files/load/prospect/Prospect01.csv","LOADED","24970","24970","1","0","","","",""
+100068 (22000): 8246d3d0-6bdd-47ab-8fca-4f19796ab570: End of record reached while expected to parse column '"PROSPECT_STG"["LASTNAME":2]'
+  File 'tpcdi-files/load/prospect/Prospect01.csv', line 1, character 3
+  Row 2, column "PROSPECT_STG"["LASTNAME":2]
+  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"s3://tpcdi-pipeline-testing/tpcdi-files/load/prospect/Prospect01.csv","LOADED","24970","24970","1","0","","","",""

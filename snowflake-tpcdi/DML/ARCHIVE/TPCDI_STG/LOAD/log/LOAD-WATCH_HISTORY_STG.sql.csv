@@ -1,0 +1,8 @@
+090106 (22000): 17f3ea3b-ad34-4745-ad26-42edfec325c4: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"s3://tpcdi-pipeline-testing/tpcdi-files/load/watch_history/WatchHistory01.txt","LOADED","1500311","1500311","1","0","","","",""
+100068 (22000): d6592e34-cdfa-4157-99b7-852efb49eca4: End of record reached while expected to parse column '"TRANSIENT_STAGE_TABLE"["$2":2]'
+  File 'tpcdi-files/load/watch_history/WatchHistory01.txt', line 1, character 18
+  Row 2, column "TRANSIENT_STAGE_TABLE"["$2":2]
+"number of rows inserted"
+"1500311"
