@@ -1,9 +1,0 @@
-090106 (22000): 07deaff1-1512-4e06-855a-ec4af3b7ae7b: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/account/Account01.txt","LOADED","50","50","1","0","","","",""
-100080 (22000): c007137d-8a90-40a2-9b08-360ee6986e37: Number of columns in file (6) does not match that of the corresponding table (8), use file format option error_on_column_count_mismatch=false to ignore this error
-  File 'tpcdi-files/load/account/Account01.txt', line 1, character 39
-  Row 1, column "ACCOUNT_STG"["CA_NAME":6]
-  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/account/Account01.txt","LOADED","50","50","1","0","","","",""

@@ -1,7 +1,0 @@
-001003 (42000): 4f9d0c3a-8375-452d-9033-2300daef33b8: SQL compilation error:
-syntax error line 1 at position 7 unexpected '*'.
-syntax error line 5 at position 5 unexpected 'INTO'.
-"number of rows deleted"
-"25"
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/customer/Customer02.txt","LOADED","25","25","1","0","","","",""

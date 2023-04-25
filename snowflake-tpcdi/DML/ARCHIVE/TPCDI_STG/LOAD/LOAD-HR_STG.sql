@@ -1,6 +1,0 @@
--- Copy into table
-
-COPY INTO TPCDI_STG.PUBLIC.HR_STG
-FROM @TPCDI_FILES/load/hr/HR01.csv
-FILE_FORMAT = (FORMAT_NAME = 'TXT_CSV')
-;
