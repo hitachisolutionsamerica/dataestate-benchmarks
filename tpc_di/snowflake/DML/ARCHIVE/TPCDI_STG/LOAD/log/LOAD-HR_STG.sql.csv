@@ -1,0 +1,9 @@
+090106 (22000): 76b675d5-26c5-47fd-ae10-af98a5ee2a87: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"s3://tpcdi-pipeline-testing/tpcdi-files/load/hr/HR01.csv","LOADED","25000","25000","1","0","","","",""
+100080 (22000): 826e390a-9a81-4a94-aa7f-3d69ab58b3cc: Number of columns in file (15) does not match that of the corresponding table (9), use file format option error_on_column_count_mismatch=false to ignore this error
+  File 'tpcdi-files/load/hr/HR01.csv', line 2, character 34
+  Row 1 starts at line 1, column "HR_STG"[15]
+  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"s3://tpcdi-pipeline-testing/tpcdi-files/load/hr/HR01.csv","LOADED","25000","25000","1","0","","","",""

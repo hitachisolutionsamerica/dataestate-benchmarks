@@ -1,0 +1,8 @@
+090106 (22000): b0c07e84-c677-474a-b59d-0c999a650ea0: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
+"number of rows inserted"
+"602115"
+100068 (22000): a7dcc5bd-9717-4952-822c-2340fc9c0a17: End of record reached while expected to parse column '"TRANSIENT_STAGE_TABLE"["$2":2]'
+  File 'tpcdi-files/load/cash_transaction/CashTransaction01.txt', line 1, character 69
+  Row 2, column "TRANSIENT_STAGE_TABLE"["$2":2]
+"number of rows inserted"
+"602115"

@@ -1,0 +1,10 @@
+254007 (n/a): None: Invalid Status: try_later
+If the error message is not clear, enable the logging using -o log_level=DEBUG and see the log to find out the cause. Contact the support for further help.
+001003 (42000): 2624a029-9683-4afd-8672-63b2e2d8b5ec: SQL compilation error:
+syntax error line 7 at position 18 unexpected '‘A'.
+"status"
+"Table CUSTOMER_STG successfully created."
+"status"
+"Table CUSTOMER_STG successfully created."
+"status"
+"Stream CUSTOMER_STG_STM successfully created."
