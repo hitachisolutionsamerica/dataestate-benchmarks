@@ -26,8 +26,7 @@ The code assumes that you have a Databricks workspace and that you have a cluste
 - [Pandas](https://pandas.pydata.org/)
 - [Numpy](https://numpy.org/)
 - [Scikit-Learn](https://scikit-learn.org/stable/)
-
-The code also assumes that you have a database with the tables from the TPC-AI specification loaded into it.
+- [Horovod](https://horovod.readthedocs.io/en/stable/)
 
 # [Code](#code)
 
