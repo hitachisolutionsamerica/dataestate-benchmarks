@@ -17,7 +17,7 @@ interpret the results.
 
 #### Step 1 - Creating the Dataset
 
-Use the [data generator](https://e2-demo-west.cloud.databricks.com/?o=2556758628403379#notebook/3533331031122525/command/3533331031122526) to generate TPC-DS, with delta z-ordering and data management best practices
+Use the [data generator](TPC-datagen-notebook.dbc) to generate TPC-DS, with delta z-ordering and data management best practices
 
 1.  Export the notebook and import it in the customer env and then follow the notebook's instructions.
 
@@ -49,7 +49,7 @@ the following:
 
 **Query Execution Script**
 
-Use the multi-threaded Java based [query runner](https://drive.google.com/file/d/1YeF6jfpLyd_lJ8t25UFJ5e5pD2Ovrbd5/view?usp=sharing), along with all 99 TPC-DS queries, to run the benchmark. You will need Java 18 (or above) installed on the customer's machine. Run it from a VM within the same cloud region if possible. Running from a local laptop might be \~5% slower due to network latency.
+Use the multi-threaded Java based [query runner](TPC-DS-query-runner-ThroughputTest.zip), along with all 99 TPC-DS queries, to run the benchmark. You will need Java 18 (or above) installed on the customer's machine. Run it from a VM within the same cloud region if possible. Running from a local laptop might be \~5% slower due to network latency.
 
 Here's how to run it. You need four input parameters:
 
@@ -61,7 +61,7 @@ Here's how to run it. You need four input parameters:
 
 4.  schema - The database/schema that contains the TPC-DS dataset
 
-Syntax: `./run.sh \"\<URI\>\" \<token\> \<concurrency\> \<schema\>`
+Syntax: `./run.sh "<URI>" <token> <concurrency> <schema>`
 
 Example:
 ```
