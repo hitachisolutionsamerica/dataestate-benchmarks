@@ -65,7 +65,7 @@ Syntax: `./run.sh \"\<URI\>\" \<token\> \<concurrency\> \<schema\>`
 
 Example:
 ```
-./run.sh "jdbc:databricks://e2-demo-west.cloud.databricks.com:443/default;transportMode=http;ssl=1;AuthMech=3;httpPath=/sql/1.0/endpoints/29c44a462d0d7d82;\" dapi532c884ef8e5215916219f334dd49358 1 tpcds_sf1_delta_nopartitions
+./run.sh "jdbc:databricks://e2-demo-west.cloud.databricks.com:443/default;transportMode=http;ssl=1;AuthMech=3;httpPath=/sql/1.0/endpoints/29c44a462d0d7d82;\" YOUR_DATABRICKS_TOKEN 1 tpcds_sf1_delta_nopartitions
 ```
 
 #### **Execution Procedure**
