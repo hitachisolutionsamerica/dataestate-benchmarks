@@ -78,6 +78,6 @@ Example:
 
 It's important to note that the most critical aspect is ***Query Throughput*** (i.e. query per minute or seconds, or hours). It measures how efficient the system is. That's what the ./run.sh from the above reports.
 
-To interpret the Total Cost Ownership (TCO) of the workload, open the [Cost Per Workload Calculator sheet](https://docs.google.com/spreadsheets/d/1ud7Ob2WY7q1wXKAdm2w8Hqr4Z9WbeYNiDcCk_7_5xUs/edit#gid=0). The `./run.sh` also reports the total latency, and you will use it for the "Benchmark Run Duration" in the sheet.
+To interpret the Total Cost Ownership (TCO) of the workload, open the [Cost Per Workload Calculator sheet](Cost%20Per%20Workload%20Calculator.xlsx). The `./run.sh` also reports the total latency, and you will use it for the "Benchmark Run Duration" in the sheet.
 
 Individual query latency under concurrency run might vary significantly due to system resource usage. Therefore, it's not a good measure to compare against other systems in terms of system performance.
