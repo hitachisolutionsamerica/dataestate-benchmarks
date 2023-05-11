@@ -1,0 +1,3 @@
+091083 (42601): 01ab17d7-0d04-4faf-0003-0e76000160e2: Nonexistent warehouse TASK_WH was specified.
+002003 (02000): 01ab17d7-0d04-4fac-0003-0e76000170ee: SQL compilation error:
+Task 'TPCDI_WH.PUBLIC.DIM_COMPANY_TSK' does not exist or not authorized.

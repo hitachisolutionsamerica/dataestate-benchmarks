@@ -1,0 +1,7 @@
+090106 (22000): 37b091a2-03e1-459f-bf56-4dc27d38cc8d: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"s3://tpcdi-pipeline-testing/tpcdi-files/load/customer_mgmt/CustomerMgmt01.xml","LOADED","24570","24570","24570","0","","","",""
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"s3://tpcdi-pipeline-testing/tpcdi-files/load/customer_mgmt/CustomerMgmt01.xml","LOADED","24570","24570","24570","0","","","",""
+"status"
+"Copy executed with 0 files processed."

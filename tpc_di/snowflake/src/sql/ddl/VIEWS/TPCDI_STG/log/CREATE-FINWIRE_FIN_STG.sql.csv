@@ -1,0 +1,8 @@
+001998 (42710): 84ca94e5-90b4-4029-a688-fc5d65c3927d: SQL compilation error:
+Object 'FINWIRE_FIN_STG' already exists as TABLE
+002022 (42601): 64f71746-dd24-4f30-8441-6560284bd539: SQL compilation error:
+Missing column specification
+"status"
+"View FINWIRE_FIN_STG successfully created."
+"status"
+"View FINWIRE_FIN_STG successfully created."

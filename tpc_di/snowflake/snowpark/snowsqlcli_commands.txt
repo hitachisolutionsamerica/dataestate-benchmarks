@@ -1,0 +1,4 @@
+snowsql -c tpcdi -q "PUT file:///Users/franco.patano/Desktop/data/Batch1/* @batch1_stage AUTO_COMPRESS=TRUE"
+snowsql -c tpcdi -q "PUT file:///Users/franco.patano/Desktop/data/Batch2/* @batch2_stage AUTO_COMPRESS=TRUE"
+
+snowsql -c tpcdi -q "PUT file:///Users/franco.patano/Desktop/data/Batch3/* @batch3_stage AUTO_COMPRESS=TRUE"

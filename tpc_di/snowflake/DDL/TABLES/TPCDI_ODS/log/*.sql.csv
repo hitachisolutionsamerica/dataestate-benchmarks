@@ -1,0 +1,4 @@
+[Errno 2] No such file or directory: '*.sql'
+If the error message is unclear, enable logging using -o log_level=DEBUG and see the log to find out the cause. Contact support for further help.
+[Errno 2] No such file or directory: '*.sql'
+If the error message is unclear, enable logging using -o log_level=DEBUG and see the log to find out the cause. Contact support for further help.
