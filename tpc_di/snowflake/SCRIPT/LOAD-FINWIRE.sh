@@ -1,7 +1,7 @@
 #!/bin/bash
 
 db=tpcdi_stg
-wh=snowpipe
+wh=TPCDI_FILE_LOAD
 connection=tpcdi
 schema=public
 year=2017
