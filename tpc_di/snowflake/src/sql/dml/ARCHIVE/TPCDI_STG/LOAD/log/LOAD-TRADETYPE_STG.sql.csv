@@ -1,9 +1,0 @@
-090106 (22000): 3be5c96b-a735-4b4f-98fe-0bd973e7c82a: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/trade_type/TradeType01.txt","LOADED","5","5","1","0","","","",""
-100080 (22000): 248f9e1e-8fe1-478e-a634-03e363ad8a12: Number of columns in file (16) does not match that of the corresponding table (4), use file format option error_on_column_count_mismatch=false to ignore this error
-  File 'tpcdi-files/load/trade_type/TradeType01.txt', line 5, character 19
-  Row 1 starts at line 1, column "TRADETYPE_STG"[16]
-  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/trade_type/TradeType01.txt","LOADED","5","5","1","0","","","",""

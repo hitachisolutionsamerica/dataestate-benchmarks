@@ -1,9 +1,0 @@
-001003 (42000): fd906fc9-60e1-4948-a70d-f41b3a9ef197: SQL compilation error:
-syntax error line 1 at position 7 unexpected '*'.
-syntax error line 5 at position 5 unexpected 'INTO'.
-"number of rows deleted"
-"650412"
-100038 (22018): 9c75f981-192e-46b5-b77c-3374c749b943: Numeric value 'U' is not recognized
-  File 'tpcdi-files/load/trade/Trade02.txt', line 1, character 1
-  Row 1, column "TRADE_STG"["CDC_FLAG":1]
-  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.

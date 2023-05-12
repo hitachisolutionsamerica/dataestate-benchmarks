@@ -1,8 +1,0 @@
-090106 (22000): 53de3442-1a83-41a6-965a-41a333db86d3: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
-"number of rows inserted"
-"650412"
-100068 (22000): 0c5332b1-7433-4483-9aca-6ffab3f84527: End of record reached while expected to parse column '"TRANSIENT_STAGE_TABLE"[64]'
-  File 'tpcdi-files/load/trade/Trade01.txt', line 6, character 25
-  Row 2 starts at line 1, column "TRANSIENT_STAGE_TABLE"[64]
-"number of rows inserted"
-"650412"

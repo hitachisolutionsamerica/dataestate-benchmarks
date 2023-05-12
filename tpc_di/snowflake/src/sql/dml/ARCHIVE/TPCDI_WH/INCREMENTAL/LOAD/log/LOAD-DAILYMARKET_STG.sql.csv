@@ -1,7 +1,0 @@
-001003 (42000): 1d5f6eaa-1395-45e6-82b1-d0dbb9653060: SQL compilation error:
-syntax error line 1 at position 7 unexpected '*'.
-syntax error line 5 at position 5 unexpected 'INTO'.
-"number of rows deleted"
-"2422064"
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/daily_market/DailyMarket02.txt","LOADED","3380","3380","1","0","","","",""

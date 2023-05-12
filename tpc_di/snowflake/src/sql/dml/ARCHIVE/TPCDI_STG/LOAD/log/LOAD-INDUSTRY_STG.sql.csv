@@ -1,9 +1,0 @@
-090106 (22000): ed5b15b8-5af0-4393-a129-541ad71c0bf2: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/industry/Industry01.txt","LOADED","102","102","1","0","","","",""
-100016 (22000): 9cb6d565-24b6-4068-885e-442e3e6fa3c3: Field delimiter '|' found while expecting record delimiter 'N'
-  File 'tpcdi-files/load/industry/Industry01.txt', line 3, character 3
-  Row 2 starts at line 1, column "INDUSTRY_STG"["IN_SC_ID":3]
-  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/industry/Industry01.txt","LOADED","102","102","1","0","","","",""
