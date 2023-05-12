@@ -1,4 +1,0 @@
-*.log
-*.log.[0-9]*
-*.log_bootstrap
-*/log/*
