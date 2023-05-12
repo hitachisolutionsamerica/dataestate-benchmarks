@@ -1,9 +1,0 @@
-001003 (42000): 2238b6d9-d783-4c84-bef9-03581f682636: SQL compilation error:
-syntax error line 1 at position 7 unexpected '*'.
-syntax error line 5 at position 5 unexpected 'INTO'.
-"number of rows deleted"
-"602956"
-100038 (22018): c8581ef9-f852-4107-92e4-6c908965bb30: Numeric value 'I' is not recognized
-  File 'tpcdi-files/load/holding_history/HoldingHistory02.txt', line 1, character 1
-  Row 1, column "HOLDINGHISTORY_STG"["CDC_FLAG":1]
-  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.

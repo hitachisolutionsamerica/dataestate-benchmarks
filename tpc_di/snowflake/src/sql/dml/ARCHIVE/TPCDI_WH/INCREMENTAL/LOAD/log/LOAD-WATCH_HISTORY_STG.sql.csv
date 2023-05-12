@@ -1,9 +1,0 @@
-001003 (42000): cc06e1bf-544c-45b6-b892-fc75b181e73e: SQL compilation error:
-syntax error line 1 at position 7 unexpected '*'.
-syntax error line 5 at position 5 unexpected 'INTO'.
-"number of rows deleted"
-"1500311"
-100080 (22000): 452913da-158e-49b2-9e68-f599db768d72: Number of columns in file (6) does not match that of the corresponding table (4), use file format option error_on_column_count_mismatch=false to ignore this error
-  File 'tpcdi-files/load/watch_history/WatchHistory02.txt', line 2, character 1
-  Row 1 starts at line 1, column "WATCH_HISTORY_STG"[6]
-  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.

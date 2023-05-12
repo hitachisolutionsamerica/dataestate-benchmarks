@@ -1,7 +1,0 @@
-090106 (22000): 59c109b4-e640-4d7a-96fc-edf188e78e65: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
-"number of rows inserted"
-"602956"
-100038 (22018): be2f4aa9-73c6-41bf-af44-12b962ec0e66: Numeric value '2939
-1' is not recognized
-"number of rows inserted"
-"602956"
