@@ -13,8 +13,8 @@ ALTER WAREHOUSE WH_2XL resume
 CREATE STORAGE INTEGRATION s3_int 
   TYPE = external_stage storage_provider = s3 
   ENABLED = TRUE 
-  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::384416317380:role/mysnowflakerole' 
-  STORAGE_ALLOWED_LOCATIONS = ('s3://tpcds-datasets/');
+  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::123456789012:role/mysnowflakerole' 
+  STORAGE_ALLOWED_LOCATIONS = ('s3://<<my-tpcds-data-bucket>>/');
 */
 
 GRANT USAGE ON INTEGRATION s3_int TO ROLE accountadmin
@@ -41,7 +41,7 @@ CREATE OR REPLACE FILE FORMAT csv_format
 ;
 CREATE OR REPLACE STAGE tpcds_stage 
   STORAGE_INTEGRATION = s3_int 
-  URL = 's3://tpcds-datasets/tpcds/2023-01-10/tpcds-2.13/tpcds_sf30000_text/' 
+  URL = 's3://<<my-tpcds-data-bucket>>/tpcds/2023-01-10/tpcds-2.13/tpcds_sf30000_text/' 
   FILE_FORMAT = csv_format;
 
 -- SHOW TABLES IN tpcds_sf30000.public;
@@ -122,15 +122,6 @@ COPY INTO tpcds_sf30000.public.web_site               FROM @tpcds_stage/web_site
 
 /* -----------------------
       ETL PREPARATION
-      | Step | Action       | sf30000  |
-      | ---- | ------------ | ---- |
-      |   1  | AllData      | 24.0 |
-      |   2  | StartData    | 18.0 |
-      |   3  | Upsertmedium |  1.5 |
-      |   4  | Insertmedium |  1.9 |
-      |   5  | DeleteXSmall |  1.9 |
-      |   6  | DeleteSmall  |  1.8 |
-      |   7  | Deletemedium |  1.6 |
 ----------------------- */
 
 ALTER SESSION SET QUERY_TAG = 'etl sf30000 - prep 0 - step 1 - drop database'  ; DROP DATABASE IF EXISTS etlprep_sf30000 CASCADE;
