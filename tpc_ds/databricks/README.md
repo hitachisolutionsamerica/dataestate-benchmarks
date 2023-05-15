@@ -1,14 +1,10 @@
-# Presenting and Executing TPC-DS (for customers) on Databricks
+# Executing TPC-DS on Databricks
 
 
-### Before you begin to think about running TPC-DS
+### Before you begin running TPC-DS
 
-Customers look at standard benchmarks, such as TPC-DS, to determine if
-it\'s a worthy system. Share the 100TB [TPC-DS benchmark](https://databricks.com/blog/2021/11/02/databricks-sets-official-data-warehousing-performance-record.html)
-with your customer to convey the message that Databricks is a pretty
-efficient and scalable SQL engine. After sharing the 100TB TPC-DS
-benchmark, and your customer still wants to run the TPC-DS benchmark on
-Databricks themselves, this document describes how you can do it.
+Review the 100TB [TPC-DS benchmark](https://databricks.com/blog/2021/11/02/databricks-sets-official-data-warehousing-performance-record.html). After review, if you still want to run the TPC-DS benchmark on
+Databricks yourself, this document describes how you can do it.
 
 ### Introduction
 
@@ -70,7 +66,7 @@ Example:
 
 #### **Execution Procedure**
 
-1.  Star the cluster and run it once. Discard the result, or mark it as cold. It's expected to be slower than a warm run.
+1.  Start the cluster and run it once. Discard the result, or mark it as cold. It's expected to be slower than a warm run.
 
 2.  Run 3 more iterations. This is the warm run and takes the average of the ***Query Throughput*** of the 3. The stddev of the 3 runs should be no more than 8%.
 
