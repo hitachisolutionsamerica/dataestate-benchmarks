@@ -1,9 +1,0 @@
-090106 (22000): d02b6155-54af-4e1f-87ef-6f21ea6faffd: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/date/Date01.txt","LOADED","25933","25933","1","0","","","",""
-100080 (22000): 8f5c7084-b8a2-410e-9960-a804b559554f: Number of columns in file (5171) does not match that of the corresponding table (18), use file format option error_on_column_count_mismatch=false to ignore this error
-  File 'tpcdi-files/load/date/Date01.txt', line 305, character 22
-  Row 1 starts at line 1, column "DATE_STG"[5171]
-  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.
-"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
-"s3://tpcdi-pipeline-testing/tpcdi-files/load/date/Date01.txt","LOADED","25933","25933","1","0","","","",""

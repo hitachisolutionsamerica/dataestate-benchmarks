@@ -1,8 +1,0 @@
-090106 (22000): ce759708-01dd-403e-99ee-ee1ea265dc40: Cannot perform operation. This session does not have a current schema. Call 'USE SCHEMA', or use a qualified name.
-"number of rows inserted"
-"2422064"
-100016 (22000): 3a211ff3-d7b8-42e4-975d-93c1a7a729f8: Field delimiter '|' found while expecting record delimiter 'N'
-  File 'tpcdi-files/load/daily_market/DailyMarket01.txt', line 1, character 34
-  Row 2, column "TRANSIENT_STAGE_TABLE"["$2":2]
-"number of rows inserted"
-"2422064"

@@ -1,8 +1,0 @@
-001998 (42710): b0e278e0-c869-4c49-86f9-7525b62a4b61: SQL compilation error:
-Object 'FINWIRE_CMP_STG' already exists as TABLE
-002022 (42601): 3a716df2-623e-42dc-b888-cf8edd4b80dd: SQL compilation error:
-Missing column specification
-"status"
-"View FINWIRE_CMP_STG successfully created."
-"status"
-"View FINWIRE_CMP_STG successfully created."
