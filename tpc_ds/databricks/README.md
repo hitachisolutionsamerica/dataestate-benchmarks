@@ -13,9 +13,9 @@ interpret the results.
 
 #### Step 1 - Creating the Dataset
 
-Use the [data generator](TPC-datagen-notebook.dbc) to generate TPC-DS, with delta z-ordering and data management best practices
+Use the [data generator](TPC-datagen-notebook.dbc) to generate TPC-DS
 
-1.  Export the notebook and import it in the customer env and then follow the notebook's instructions.
+1.  Export the notebook and import it in the Databricks workspace and then follow the notebook's instructions.
 
 2.  Benchmark with 10GB scale or above. 1GB scale factor can be used to verify that notebook works.
 
@@ -45,7 +45,7 @@ the following:
 
 **Query Execution Script**
 
-Use the multi-threaded Java based [query runner](TPC-DS-query-runner-ThroughputTest.zip), along with all 99 TPC-DS queries, to run the benchmark. You will need Java 18 (or above) installed on the customer's machine. Run it from a VM within the same cloud region if possible. Running from a local laptop might be \~5% slower due to network latency.
+Use the multi-threaded Java based [query runner](TPC-DS-query-runner-ThroughputTest.zip), along with all 99 TPC-DS queries, to run the benchmark. You will need Java 18 (or above) installed on the server. Run it from a VM within the same cloud region if possible. Running from a local laptop might be \~5% slower due to network latency.
 
 Here's how to run it. You need four input parameters:
 
